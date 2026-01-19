@@ -1,0 +1,39 @@
+{
+  "name": "magic-editor",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@iconify-json/carbon": "^1.2.18",
+    "@tiptap/extension-bubble-menu": "^3.15.3",
+    "@tiptap/extension-image": "^3.15.3",
+    "@tiptap/extension-table": "^3.15.3",
+    "@tiptap/extension-table-cell": "^3.15.3",
+    "@tiptap/extension-table-header": "^3.15.3",
+    "@tiptap/extension-table-row": "^3.15.3",
+    "@tiptap/extension-text-align": "^3.15.3",
+    "@tiptap/extension-text-style": "^3.15.3",
+    "@tiptap/starter-kit": "^3.15.3",
+    "@tiptap/vue-3": "^3.15.3",
+    "@unocss/reset": "^66.6.0",
+    "@vueuse/core": "^14.1.0",
+    "html-to-image": "^1.11.13",
+    "pinia": "^3.0.4",
+    "sass": "^1.97.2",
+    "unocss": "^66.6.0",
+    "vue": "^3.5.24"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/tsconfig": "^0.8.1",
+    "typescript": "~5.9.3",
+    "vite": "^7.2.4",
+    "vue-tsc": "^3.1.4"
+  }
+}
